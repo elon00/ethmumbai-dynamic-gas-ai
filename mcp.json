@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "ethmumbai-dynamic-gas-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Arbitrum / Ethereum L2",
+        "PROJECT_TICKER": "EMGAS"
+      },
+      "tools": [
+        {
+          "name": "verify_emgas_invariants",
+          "description": "Verifies deterministic invariants for ETHMumbai Dynamic Gas AI on Arbitrum / Ethereum L2."
+        },
+        {
+          "name": "execute_emgas_action",
+          "description": "Executes authenticated AI state transition."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[package]
+name = "ethmumbai-dynamic-gas-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Predictive machine learning gas fee forecaster"
+license = "MIT"
+
+[dependencies]
